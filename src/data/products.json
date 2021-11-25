@@ -26,9 +26,38 @@
     },
     {
         "id": "product-four",
-        "title": "New product 4",
+        "title": "New product 5",
         "price": 53.45,
         "image": "/images/p5.png"
+    },
+    {
+        "id": "product-six",
+        "title": "New product 6",
+        "price": 153.45,
+        "image": "/images/p6.png"
+    },
+    {
+        "id": "product-seven",
+        "title": "New product 7",
+        "price": 43.45,
+        "image": "/images/p7.png"
+    },
+    {
+        "id": "product-eight",
+        "title": "New product 8",
+        "price": 443.45,
+        "image": "/images/p8.png"
+    },
+    {
+        "id": "product-nine",
+        "title": "New product 9",
+        "price": 780.90,
+        "image": "/images/p9.png"
+    },
+    {
+        "id": "product-ten",
+        "title": "New product 10",
+        "price": 678.00,
+        "image": "/images/p10.png"
     }
-
 ]
