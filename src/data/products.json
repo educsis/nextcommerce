@@ -1,0 +1,34 @@
+[
+    {
+        "id": "product-one",
+        "title": "New product",
+        "price": 233.45,
+        "image": "/images/p1.png"
+    },
+    {
+        "id": "product-two",
+        "title": "New product 2",
+        "price": 253.45,
+        "image": "/images/p2.png"
+    }
+    ,
+    {
+        "id": "product-three",
+        "title": "New product 3",
+        "price": 23.45,
+        "image": "/images/p3.png"
+    },
+    {
+        "id": "product-four",
+        "title": "New product 4",
+        "price": 453.45,
+        "image": "/images/p4.png"
+    },
+    {
+        "id": "product-four",
+        "title": "New product 4",
+        "price": 53.45,
+        "image": "/images/p5.png"
+    }
+
+]
