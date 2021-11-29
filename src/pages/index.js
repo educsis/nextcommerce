@@ -74,40 +74,39 @@ export default function Home({products}) {
 export async function getStaticProps(){
 
   const client = new ApolloClient({
-    uri: 'http://localhost:10008/graphql',
+    uri: 'https://guatetiendas.com/graphql',
     cache: new InMemoryCache()
   });
 
   const response = await client.query({
     query: gql`
-      query AllProducts {
-        products {
-          edges {
-            node {
-              id
-              content
-              title
-              uri
+    query AllProducts {
+      products {
+        edges {
+          node {
+            id
+            content
+            title
+            uri
+            product {
+              productPrice
               productId
-              product {
-                productId
-                productPrice
-              }
-              featuredImage {
-                node {
-                  altText
-                  uri
-                  mediaDetails {
-                    height
-                    width
-                  }
-                  sourceUrl
+            }
+            slug
+            featuredImage {
+              node {
+                altText
+                sourceUrl
+                mediaDetails {
+                  height
+                  width
                 }
               }
             }
           }
         }
       }
+    }
     `
   })
 
