@@ -1,6 +1,7 @@
 {
   "name": "next-commerce",
   "private": true,
+  "request": "^2.88.2",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
