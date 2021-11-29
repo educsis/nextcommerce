@@ -1,6 +1,6 @@
 module.exports = {
   reactStrictMode: true,
-  // images: {
-  //   domains: ['guatetiendas.com']
-  // }
+  images: {
+    domains: ['guatetiendas.com']
+  }
 }
